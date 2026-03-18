@@ -1,1 +1,27 @@
-{\n  "name": "meetuptele",\n  "version": "1.0.0",\n  "description": "Telegram bot for group meetup planning",\n  "scripts": {\n    "dev": "next dev",\n    "build": "next build",\n    "start": "next start",\n    "lint": "next lint"\n  },\n  "dependencies": {\n    "next": "14.0.0",\n    "react": "18.2.0",\n    "react-dom": "18.2.0",\n    "axios": "1.6.0",\n    "dotenv": "16.3.1",\n    "mongoose": "7.6.0",\n    "node-telegram-bot-api": "0.63.0",\n    "leaflet": "1.9.4",\n    "react-leaflet": "4.2.1",\n    "uuid": "9.0.0"\n  },\n  "devDependencies": {\n    "eslint": "8.50.0",\n    "eslint-config-next": "14.0.0"\n  },\n  "engines": {\n    "node": ">=18.0.0"\n  }\n}
+{
+  "name": "meetuptele",
+  "version": "1.0.0",
+  "description": "A meetup application for organizing and managing events.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wongznserene-glitch/meetuptele.git"
+  },
+  "keywords": [
+    "meetup",
+    "events",
+    "organization"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
