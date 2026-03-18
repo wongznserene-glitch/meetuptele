@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Python cache
+__pycache__/
+
+# Other common development files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
